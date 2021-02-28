@@ -4,6 +4,21 @@ The data collected to create these datasets are reused data that comes from thre
 # Naming
 # Data Dictionary
 
+| Variable | Variable Name | Measurement Unit | Allowed Values | Definition | 
+|-----------|--------------|------------------|----------------|------------| 
+| year_1 | Year (1) | Numerical | Allowed Values | Definition | 
+| ave_Pop_Area | Average Population of the Legal Services Area | Numerical  | Allowed Values | Definition | 
+| ave_Visits_Year | Average Library Visits per Year  | Numerical  | Allowed Values | Definition | 
+| ave_Visits_Week | Average Weekly Visits | Numerical  | Allowed Values | Definition | 
+| year_2 | Year (2) | Numerical | Allowed Values | Definition | 
+| visits_Per_Cap | Visits per Capita | Numerical | Allowed Values | Definition | 
+| visits_Per_Borrower | Visits per Borrower | Numerical  | Allowed Values | Definition | 
+| visits_Per_Hour | Vists per Hour Open | Numerical  | Allowed Values | Definition | 
+| year_3 | Year (3) | Numerical  | Allowed Values | Definition |
+| librarian_Visits| Visits per Libraian FTE | Numerical  | Allowed Values | Definition | 
+| librarian_MLS_Visits | Visits per MLS Librarian FTE | Numerical  | Allowed Values | Definition | 
+| staff_Visits | Visits per Staff FTE | Numerical  | Allowed Values | Definition | 
+
 # Metadata Schema
   Schema Used: Project Open Data (DCAT-US Schema v1.1)
   
