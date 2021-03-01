@@ -14,6 +14,15 @@ The data collected to create these datasets are reused data that comes from thre
 
 # Naming
 
+Naming the files for this repository should follow these guidelines: 
+
+average_visitordata
+
+The "average" indicates the average number of a certain visitor's statistic between all 186 California public libraries druing the 2016-2019 timespan.
+
+The "visitordata" indicates the specificed visitor data that is being collected between all 186 California public libraris during the 2016-2019 timespan. 
+
+
 # Data Dictionary
 
 | Variable | Variable Name | Measurement Unit | Allowed Values | Definition | 
