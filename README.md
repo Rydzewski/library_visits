@@ -64,7 +64,7 @@ The naming convention does not include the title of the California Public Librar
 | hasEmail | mailto:rydzew@uw.edu |
 | describedBy | https://github.com/Rydzewski/library_visits |
 | description | This dataset collections the average number of library visitors that go to California public libraries between 2016-2019. Specific yearly data collected inculdes the averages of the population of legal service area, library visits, vists per capital, vistis per borrower, visits per hours open, and visits per week. The datasets in this repository was created for a Univeristy of Washington Winter 2021 Data Curation course (LIS 545).|
-| accessURL | public |
+| accessURL | https://github.com/Rydzewski/library_visits/blob/main/average_Population_Visits.csv |
 | downloadURL| public |
 | format | CSV |
 | mediaType | CSV |
