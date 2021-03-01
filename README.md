@@ -1,5 +1,8 @@
 # library_visits
 The data collected to create these datasets are reused data that comes from three datasets on the California State Library: Public Library Statistics Portal. The data collected are from three "Ready Reports" that were created over a three-year time span to collect library vising stats. The data collected is intended for those who wish to see visiting trends in California's public libraries from 2016-2019. This reository was created for a University of Washington Winter 2021 Data Curation course (LIS 545). 
+
+Note: Raw data was intentionally not added because only three spreadsheets were permitted for this project and there was no manipulation of data. All data can be found on the California Staate Libary: Public Library Statistics Portal (it is unknown if the data here is considered "raw" but for this project I am assuming that it is). 
+
 # Table of Contents 
 
 [Naming](#naming)
@@ -14,21 +17,23 @@ The data collected to create these datasets are reused data that comes from thre
 
 # Naming
 
-Naming the files for this repository should follow these guidelines: 
+Naming the files for this repository should follow this format: 
 
 ```
 average_visitordata
 ```
 
-The "average" indicates the average number of a certain visitor's satistics between all 186 California public libraries druing the 2016-2019 timespan.
+The "average" indicates the average number of a certain visitor satistics between all 186 California public libraries.
 
-The "visitordata" indicates the specificed visitor data that is being collected between all 186 California public libraris during the 2016-2019 timespan. 
+The "visitordata" indicates the specificed visitor data that is being collected between all 186 California public libraris. 
+
+The file name should follow the camel case capitilzation type where the first letter in the first word is lowwercase and the first letter in all subsequent words are capitlaized. This follows the Project Open Data (DCAT-US Schema v1.1) guidelines which are being used for this repository's metadata schema. 
 
 Example: *average_Visits_Per_Employee* 
 
 This example notes that the data being collected is the average of all data collected for 186 California public libraries and the data collected is the visits per library employee.
 
-The naming convention does not include the title of the California Public Libraries Portal because it is too long for a file name. Years are also not indicated because they are a variable that could be continually updated. If additinal years or different types of visitor data are added, these additions should be noted in the metadata schema (where necessary) and additional variables need to be added to the Data Dictionary.
+The naming convention does not include the title of the California Public Libraries Portal because it is too long for a file name. Years are also not indicated in the file name because they are a variable that could be continually updated. If additinal years or different types of visitor data are added, these additions should be noted in the metadata schema (where necessary) and additional variables need to be added to the Data Dictionary.
 
 
 # Data Dictionary
