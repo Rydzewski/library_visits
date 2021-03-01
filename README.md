@@ -80,7 +80,7 @@ The naming convention does not include the title of the California Public Librar
 | rights | This data is considered open source data and was collected from a state government library repository that is accessable to all. |
 | temporal | 2016-07-01T00:00:00Z/2019-06-30T24:00:00Z|
 | theme | public libraries, California, visits, borrower |
-| title | California Public Library Visitors (Average) |
+| title | California Public Library Visitors Stats (Average) |
 
 # License
   There are no licensing restrictions to use this data.
