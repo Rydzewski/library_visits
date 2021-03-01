@@ -16,11 +16,19 @@ The data collected to create these datasets are reused data that comes from thre
 
 Naming the files for this repository should follow these guidelines: 
 
+```
 average_visitordata
+```
 
-The "average" indicates the average number of a certain visitor's statistic between all 186 California public libraries druing the 2016-2019 timespan.
+The "average" indicates the average number of a certain visitor's satistics between all 186 California public libraries druing the 2016-2019 timespan.
 
 The "visitordata" indicates the specificed visitor data that is being collected between all 186 California public libraris during the 2016-2019 timespan. 
+
+Example: *average_Visits_Per_Employee* 
+
+This example notes that the data being collected is the average of all data collected for 186 California public libraries and the data collected is the visits per library employee.
+
+The naming convention does not include the title of the California Public Libraries Portal because it is too long for a file name. Years are also not indicated because they are a variable that could be continually updated. If additinal years or different types of visitor data are added, these additions should be noted in the metadata schema (where necessary) and additional variables need to be added to the Data Dictionary.
 
 
 # Data Dictionary
