@@ -33,7 +33,7 @@ Example: *average_Visits_Per_Employee*
 
 This example notes that the data being collected is the average of all data collected for 186 California public libraries and the data collected is the visits per library employee.
 
-The naming convention does not include the title of the California Public Libraries Portal because it is too long for a file name. Years are also not indicated in the file name because they are a variable that could be continually updated. If additinal years or different types of visitor data are added, these additions should be noted in the metadata schema (where necessary) and additional variables need to be added to the Data Dictionary.
+The naming convention does not include the title of the California Public Libraries Portal because it is too long for a file name. Years are also not indicated in the file name because they are a variable that could be continually updated. If additional years or different types of visitor data are added, these additions should be noted in the metadata schema (where necessary) and additional variables need to be added to the Data Dictionary.
 
 
 # Data Dictionary
