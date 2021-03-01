@@ -6,18 +6,18 @@ The data collected to create these datasets are reused data that comes from thre
 
 | Variable | Variable Name | Measurement Unit | Allowed Values | Definition | 
 |-----------|--------------|------------------|----------------|------------| 
-| year_1 | Year (1) | Numerical | Allowed Values | Definition | 
-| ave_Pop_Area | Average Population of the Legal Services Area | Numerical  | Allowed Values | Definition | 
-| ave_Visits_Year | Average Library Visits per Year  | Numerical  | Allowed Values | Definition | 
-| ave_Visits_Week | Average Weekly Visits | Numerical  | Allowed Values | Definition | 
-| year_2 | Year (2) | Numerical | Allowed Values | Definition | 
-| visits_Per_Cap | Visits per Capita | Numerical | Allowed Values | Definition | 
-| visits_Per_Borrower | Visits per Borrower | Numerical  | Allowed Values | Definition | 
-| visits_Per_Hour | Vists per Hour Open | Numerical  | Allowed Values | Definition | 
-| year_3 | Year (3) | Numerical  | Allowed Values | Definition |
-| librarian_Visits| Visits per Libraian FTE | Numerical  | Allowed Values | Definition | 
-| librarian_MLS_Visits | Visits per MLS Librarian FTE | Numerical  | Allowed Values | Definition | 
-| staff_Visits | Visits per Staff FTE | Numerical  | Allowed Values | Definition | 
+| year_1 | Year the Data was Collected (1) | Numerical | 2016-2017, 2017-2018, 2018-2019 | This is the year span that the data was collected for visitor statistics. The year starts in July of the first year indicated and ends in the following year in June (one year of data over two year time-span). This variable is in the first dataset of three, which is why the "1" is included at the end of the variable to distinguish from the other "year" variables. | 
+| ave_Pop_Area | Average Population Size of the Legal Services Area | Numerical  | Any number | Definition | 
+| ave_Visits_Year | Average Library Visits per Year  | Numerical  | Any number | Definition | 
+| ave_Visits_Week | Average Weekly Visits | Numerical | Any number | Definition | 
+| year_2 | Year the Data was Collected (2) | Numerical | 2016-2017, 2017-2018, 2018-2019 | This is the year span that the data was collected for visitor statistics. The year starts in July of the first year indicated and ends in the following year in June (one year of data over two year time-span). This variable is in the second dataset of three, which is why the "2" is included at the end of the variable to distinguish from the other "year" variables. | 
+| visits_Per_Cap | Visits per Capita | Numerical | Any number | Definition | 
+| visits_Per_Borrower | Visits per Borrower | Numerical  | Any number | Definition | 
+| visits_Per_Hour | Vists per Hour Open | Numerical  | Any number | Definition | 
+| year_3 | Year the Data was Collected (3) | Numerical  | 2016-2017, 2017-2018, 2018-2019 | This is the year span that the data was collected for visitor statistics. The year starts in July of the first year indicated and ends in the following year in June (one year of data over two year time-span). This variable is in the third dataset of three, which is why the "3" is included at the end of the variable to distinguish from the other "year" variables.|
+| librarian_Visits| Visits per Libraian FTE | Numerical  | Any number| Definition | 
+| librarian_MLS_Visits | Visits per MLS Librarian FTE | Numerical  | AAny number| Definition | 
+| staff_Visits | Visits per Staff FTE | Numerical  | Any number| Definition | 
 
 # Metadata Schema
   Schema Used: Project Open Data (DCAT-US Schema v1.1)
