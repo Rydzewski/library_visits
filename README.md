@@ -41,7 +41,7 @@ The naming convention does not include the title of the California Public Librar
 
   The data being collected follows general normalization guidlines. 
   1. Formatting of all cell rows and columns are aligned. 
-  2. All datasets have been cleaned so that there are no blank values, all numeric imputs have the same amount of digits as the other numberic imputs within a dataset, and that value constraints within the data diction (below) are met. 
+  2. All datasets have been cleaned so that there are no blank values, all numeric imputs have the same amount of digits as the other numberic imputs within a dataset, and that the value constraints within the Data Dictionary (below) are met in each dataset. 
   3. Data from the orginal souces (raw data) have been separated into three datasets so that varying data characteristics not collected in one dataset.
   4. The enrichment process was proformed by having a data dictionary and a metadata table included to improve the use of the data. 
   5. All datasets' variables use the camel case method which aligns with the fild naming convention listed in the above section (the POD v1.1 metadata schema used also follows this method for their feild names).  
