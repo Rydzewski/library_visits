@@ -7,6 +7,8 @@ Note: Raw data was intentionally not added because only three spreadsheets were 
 
 [Naming](#naming)
 
+[Normalization](#normalization)
+
 [Data Dictionary](#data-dictionary)
 
 [Metadata Schema](#metadata-schema)
@@ -33,8 +35,17 @@ Example: *average_Visits_Per_Employee*
 
 This example notes that the data being collected is the average of all data collected for 186 California public libraries and the data collected is the visits per library employee.
 
-The naming convention does not include the title of the California Public Libraries Portal because it is too long for a file name. Years are also not indicated in the file name because they are a variable that could be continually updated. If additional years or different types of visitor data are added, these additions should be noted in the metadata schema (where necessary) and additional variables need to be added to the Data Dictionary.
+The naming convention does not include the title of the California Public Libraries Portal because it is too long for a file name. Years are also not indicated in the file name because they are a variable that could be continually updated. If additional years or different types of visitor data are added, these additions should be noted in the metadata schema (where necessary) and additional variables need to be added to the Data Dictionary. 
 
+# Normalization 
+
+  The data being collected follows general normalization guidlines. 
+  1. Formatting of all cell rows and columns are aligned. 
+  2. All datasets have been cleaned so that there are no blank values, all numeric imputs have the same amount of digits as the other numberic imputs within a dataset, and that value constraints within the data diction (below) are met. 
+  3. Data from the orginal souces (raw data) have been separated into three datasets so that varying data characteristics not collected in one dataset.
+  4. The enrichment process was proformed by having a data dictionary and a metadata table included to improve the use of the data. 
+  5. All datasets' variables use the camel case method which aligns with the fild naming convention listed in the above section (the POD v1.1 metadata schema used also follows this method for their feild names).  
+  6. Editing and careful consideration was used to follow text normalization (spelling, vocabulary, puncutation, syntax) 
 
 # Data Dictionary
 
