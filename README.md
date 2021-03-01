@@ -1,7 +1,19 @@
 # library_visits
 The data collected to create these datasets are reused data that comes from three datasets on the California State Library: Public Library Statistics Portal. The data collected are from three "Ready Reports" that were created over a three-year time span to collect library vising stats. The data collected is intended for those who wish to see visiting trends in California's public libraries from 2016-2019. This reository was created for a University of Washington Winter 2021 Data Curation course (LIS 545). 
 # Table of Contents 
+
+[Naming](#naming)
+
+[Data Dictionary](#data-dictionary)
+
+[Metadata Schema](#metadata-schema)
+
+[License](#license)
+
+[Contact](#contact)
+
 # Naming
+
 # Data Dictionary
 
 | Variable | Variable Name | Measurement Unit | Allowed Values | Definition | 
