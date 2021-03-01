@@ -62,22 +62,21 @@ The naming convention does not include the title of the California Public Librar
 | accrualPeriodicity | R/P1Y |
 | fn | Marissa Rydzewski |
 | hasEmail | mailto:rydzew@uw.edu |
-| describedBy | public |
+| describedBy | https://github.com/Rydzewski/library_visits |
 | description | This dataset collections the average number of library visitors that go to California public libraries between 2016-2019. Specific yearly data collected inculdes the averages of the population of legal service area, library visits, vists per capital, vistis per borrower, visits per hours open, and visits per week. The datasets in this repository was created for a Univeristy of Washington Winter 2021 Data Curation course (LIS 545).|
 | accessURL | public |
 | downloadURL| public |
 | format | CSV |
 | mediaType | CSV |
-| identifier | public |
-| isPartOf | public |
+| identifier | https://github.com/Rydzewski/library_visits |
 | issued | 20201-02-28 |
 | keyword | "public library", "California", "visits", "borrower" |
-| landingPage | public |
+| landingPage | https://github.com/Rydzewski/library_visits |
 | language | en-us |
 | license | none |
 | modified | 2021-03-05 |
 | publisher | Marissa Rydzewski |
-| references | public |
+| references | https://www.countingopinions.com/pireports/report.php?a7dca24c2a944fd8668331da6177a763&live, https://www.countingopinions.com/pireports/report.php?1f4ee471448420e9f39aa1584b57f1f0&live, https://www.countingopinions.com/pireports/report.php?0dc7d5b0b4ab96c42274f83c5ddf40f4&live, https://ca.countingopinions.com/index.php?page_id=3 |
 | rights | This data is considered open source data and was collected from a state government library repository that is accessable to all. |
 | temporal | 2016-07-01T00:00:00Z/2019-06-30T24:00:00Z|
 | theme | public libraries, California, visits, borrower |
