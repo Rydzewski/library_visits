@@ -63,7 +63,7 @@ The naming convention does not include the title of the California Public Librar
 | visits_Per_Hour | Library Visits per Hour Open | Numerical  | Any number | This is the total average number of visitors per hour. This statistic is also depended on each library's individual operational hours scudleds thus the "Open" has been added to the variable name. | 
 | year_3 | Year the Data was Collected (3) | Numerical  | 2016-2017, 2017-2018, 2018-2019 | This is the year span that the data was collected for visitor statistics. The year starts in July of the first year indicated and ends in the following year in June (one year of data over two year time-span). This variable is in the third dataset of three, which is why the "3" is included at the end of the variable to distinguish from the other "year" variables.|
 | librarian_Visits| Visits per Libraian FTE | Numerical  | Any number| This is the total average number of library visitors per librarian, who is a full-time employee (FTE). | 
-| librarian_MLS_Visits | Visits per MLS Librarian FTE | Numerical  | AAny number| This is the total average number of library visitors per Masters of Library Studies (MLS) librarian, who is a full-time employee (FTE). | 
+| librarian_MLS_Visits | Visits per MLS Librarian FTE | Numerical  | Any number| This is the total average number of library visitors per Masters of Library Studies (MLS) librarian, who is a full-time employee (FTE). | 
 | staff_Visits | Visits per Staff FTE | Numerical  | Any number| This is the total average number of library visitors per library staff member, who is a full-time employee (FTE).This staff member is not a librarian, but has another library-related job title.| 
 
 # Metadata Schema
