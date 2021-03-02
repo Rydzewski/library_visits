@@ -1,7 +1,9 @@
 # library_visits
-The data collected to create these datasets are reused data that comes from three datasets on the California State Library: Public Library Statistics Portal. The data collected are from three "Ready Reports" that were created over a three-year time span to collect library vising stats. The data collected is intended for those who wish to see visiting trends in California's public libraries from 2016-2019. This reository was created for a University of Washington Winter 2021 Data Curation course (LIS 545). 
+The data collected to create the three CSV dataset tables are reused data that comes from three visitor datasets on the California State Library: Public Library Statistics Portal (links to these datasets can be found in the "Metadata Schema" section under "refereces"). The data collected are from three visitor "Ready Reports," each report collects various library vising stats over a one-year timespan. Stats collected indlude hourly, weekly, and per capita visits, vits per borrower, and which employees were visited. The data collected is intended for those who wish to see visiting trends in California's public libraries from July of 2016 to June of 2019. This information is open sourced data. 
 
-Note: Raw data was intentionally not added because only three spreadsheets were permitted for this project and there was no manipulation of data. All data can be found on the California Staate Libary: Public Library Statistics Portal (it is unknown if the data here is considered "raw" but for this project I am assuming that it is). 
+This dataset was created for a University of Washington Winter 2021 Data Curation course (LIS 545). 
+
+Note: Raw data was intentionally not added because only three spreadsheets were permitted for this project and there was no manipulation of data (other than separating the data within three tables and changing the variable names to align with a more standardized naming convention). All data can be found on the California Staate Libary: Public Library Statistics Portal (it is unknown if the data here is considered "raw" but for this project I am assuming that it is). 
 
 # Table of Contents 
 
@@ -41,7 +43,7 @@ The naming convention does not include the title of the California Public Librar
 
   The data being collected follows general normalization guidlines. 
   1. Formatting of all cell rows and columns are aligned. 
-  2. All datasets have been cleaned so that there are no blank values, all numeric imputs have the same amount of digits as the other numberic imputs within a dataset, and that the value constraints within the Data Dictionary (below) are met in each dataset. 
+  2. All datasets have been cleaned so that there are no blank values, no dublicate variables, all numeric imputs have the same amount of digits as the other numberic imputs within a dataset, and that the value constraints within the Data Dictionary (below) are met in each dataset. 
   3. Data from the orginal souces (raw data) have been separated into three datasets so that varying data characteristics not collected in one dataset.
   4. The enrichment process was proformed by having a data dictionary and a metadata table included to improve the use of the data. 
   5. All datasets' variables use the camel case method which aligns with the fild naming convention listed in the above section (the POD v1.1 metadata schema used also follows this method for their feild names).  
