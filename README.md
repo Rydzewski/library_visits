@@ -3,7 +3,7 @@ The data collected to create the three CSV dataset tables are reused data that c
 
 This dataset was created for a University of Washington Winter 2021 Data Curation course (LIS 545). 
 
-Note: Raw data was intentionally not added because only three spreadsheets were permitted for this project and there was no manipulation of data (other than separating the data within three tables and changing the variable names to align with a more standardized naming convention). All data can be found on the California Staate Libary: Public Library Statistics Portal (it is unknown if the data here is considered "raw" but for this project I am assuming that it is). 
+Note: Raw data was intentionally not added because only three spreadsheets were permitted for this project and there was no manipulation of data (other than separating the data within three tables and changing the variable names to align with a more standardized naming convention). All data can be found on the California Staate Libary: Public Library Statistics Portal. 
 
 # Table of Contents 
 
@@ -24,7 +24,7 @@ Note: Raw data was intentionally not added because only three spreadsheets were 
 Naming the files for this repository should follow this format: 
 
 ```
-average_visitordata
+average_visitordata.csv
 ```
 
 The "average" indicates the average number of a certain visitor satistics between all 186 California public libraries.
@@ -33,7 +33,7 @@ The "visitordata" indicates the specificed visitor data that is being collected 
 
 The file name should follow the camel case capitilzation type where the first letter in the first word is lowwercase and the first letter in all subsequent words are capitlaized. This follows the Project Open Data (DCAT-US Schema v1.1) guidelines which are being used for this repository's metadata schema. 
 
-Example: *average_Visits_Per_Employee* 
+Example: *average_Visits_Per_Employee.csv* 
 
 This example notes that the data being collected is the average of all data collected for 186 California public libraries and the data collected is the visits per library employee.
 
@@ -42,12 +42,13 @@ The naming convention does not include the title of the California Public Librar
 # Normalization 
 
   The data being collected follows general normalization guidlines. 
-  1. Formatting of all cell rows and columns are aligned. 
-  2. All datasets have been cleaned so that there are no blank values, no dublicate variables, all numeric imputs have the same amount of digits as the other numberic imputs within a dataset, and that the value constraints within the Data Dictionary (below) are met in each dataset. 
-  3. Data from the orginal souces (raw data) have been separated into three datasets so that varying data characteristics not collected in one dataset.
-  4. The enrichment process was proformed by having a data dictionary and a metadata table included to improve the use of the data. 
-  5. All datasets' variables use the camel case method which aligns with the fild naming convention listed in the above section (the POD v1.1 metadata schema used also follows this method for their feild names).  
-  6. Editing and careful consideration was used to follow text normalization (spelling, vocabulary, puncutation, syntax) 
+  1. All files use the CSV format. 
+  2. Formatting of all cell rows and columns are aligned. 
+  3. All datasets have been cleaned so that there are no blank values, no dublicate variables, all numeric imputs have the same amount of digits as the other numberic imputs within a dataset, and that the value constraints within the Data Dictionary (below) are met in each dataset. 
+  4. Data from the orginal souces (raw data) have been separated into three tables so that varying data characteristics are not collected in one table.
+  5. The enrichment process was proformed by having a data dictionary and a metadata table included to improve the use of the data. Careful consideration was used to make sure enought infodrmation was added without the metadata becing too comebersome. 
+  6. All data table variables use the camel case method which aligns with the fild naming convention (listed in the above section) and the POD v1.1 metadata schema (used in the metadata schema below).  
+
 
 # Data Dictionary
 
